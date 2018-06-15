@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+nav li a {text-decoration:none;} /* no lines */
+
+nav li {list-style:none; /* turns off bullets */
+        display:inline;
+        border:purple 2px solid; 
+        padding: 5px;
+        border-radius: 5px;
+        background-color: silver;
+}
+
+nav li:hover {background-color:purple;}
+
+nav li a:hover {background-color:purple;}
